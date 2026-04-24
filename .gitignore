@@ -1,0 +1,16 @@
+dist/
+build/
+*.egg-info/
+**/*.egg-info/
+.eggs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.ipynb_checkpoints/
+
+# Do not publish local samples, tests, or Cursor plan files
+samples/
+tests/
+.cursor/plans/
