@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agent-godmode"
-version = "0.1.8"
+version = "0.1.9"
 description = "MCP server and library: read/write files, run commands, list files — with strict prompts for user-provided LLMs."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -16,6 +16,10 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://github.com/mdvohra/agent-godmode"
+Repository = "https://github.com/mdvohra/agent-godmode"
 
 [project.scripts]
 agent-godmode = "agent_godmode.server:main"

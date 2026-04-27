@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mdvohra/agent-godmode",
+  "title": "agent-godmode",
+  "description": "MCP server and library: read/write files, run commands, list files — with strict prompts for user-provided LLMs.",
+  "repository": {
+    "url": "https://github.com/mdvohra/agent-godmode",
+    "source": "github"
+  },
+  "version": "0.1.9",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "agent-godmode",
+      "version": "0.1.9",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "AGENT_GODMODE_ROOT",
+          "description": "Absolute workspace root; only paths under this directory are allowed. Omit if you pass --root to the CLI.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

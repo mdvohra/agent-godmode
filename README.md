@@ -1,5 +1,7 @@
 # agent-godmode
 
+<!-- mcp-name: io.github.mdvohra/agent-godmode -->
+
 Workspace-scoped **MCP tools** for building Cursor-style agents: **read_file**, **write_file**, **edit_file**, **run_command**, **list_files**. Includes **strict, versioned system prompts** (`SYSTEM_PROMPT_V1`) and **OpenAI-style tool definitions** so your app can wire any LLM with one import.
 
 The **LLM and API keys stay in your app**. This package provides tool execution, sandboxing, and prompts—not a hosted model.
