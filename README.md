@@ -377,3 +377,5 @@ Runs the MCP server on **stdio** (default for Cursor).
 ## License
 
 MIT
+
+[![MCP Badge](https://lobehub.com/badge/mcp/mdvohra-agent-godmode)](https://lobehub.com/mcp/mdvohra-agent-godmode)
